@@ -1,0 +1,135 @@
+2023-11-08T01:24:40+00:00 CRITICAL Uncaught Exception: Could not find asset registry for wp-admin-scripts in C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php:136
+Stack trace:
+#0 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php(427): Automattic\WooCommerce\Internal\Admin\WCAdminAssets::get_script_asset_filename('wp-admin-script...', 'payment-method-...')
+#1 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCPayPromotion\Init.php(45): Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_script('wp-admin-script...', 'payment-method-...', true)
+#2 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Admin\Features\Features.php(138): Automattic\WooCommerce\Internal\Admin\WCPayPromotion\Init->__construct()
+#3 C:\wamp64\www\n905\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\Admin\Features\Features::load_features('')
+#4 C:\wamp64\www\n905\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\wamp64\www\n905\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\wamp64\www\n905\wp-settings.php(643): do_action('init')
+#7 C:\wamp64\www\n905\wp-config.php(97): require_once('C:\\wamp64\\www\\n...')
+#8 C:\wamp64\www\n905\wp-load.php(50): require_once('C:\\wamp64\\www\\n...')
+#9 C:\wamp64\www\n905\wp-admin\admin-ajax.php(22): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+  thrown in C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php on line 136
+
+2023-11-08T01:24:46+00:00 CRITICAL Uncaught Exception: Could not find asset registry for wp-admin-scripts in C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php:136
+Stack trace:
+#0 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php(427): Automattic\WooCommerce\Internal\Admin\WCAdminAssets::get_script_asset_filename('wp-admin-script...', 'payment-method-...')
+#1 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCPayPromotion\Init.php(45): Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_script('wp-admin-script...', 'payment-method-...', true)
+#2 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Admin\Features\Features.php(138): Automattic\WooCommerce\Internal\Admin\WCPayPromotion\Init->__construct()
+#3 C:\wamp64\www\n905\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\Admin\Features\Features::load_features('')
+#4 C:\wamp64\www\n905\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\wamp64\www\n905\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\wamp64\www\n905\wp-settings.php(643): do_action('init')
+#7 C:\wamp64\www\n905\wp-config.php(97): require_once('C:\\wamp64\\www\\n...')
+#8 C:\wamp64\www\n905\wp-load.php(50): require_once('C:\\wamp64\\www\\n...')
+#9 C:\wamp64\www\n905\wp-admin\admin-ajax.php(22): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+  thrown in C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php on line 136
+
+2023-11-08T01:25:30+00:00 CRITICAL Uncaught Exception: Could not find asset registry for wp-admin-scripts in C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php:136
+Stack trace:
+#0 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php(427): Automattic\WooCommerce\Internal\Admin\WCAdminAssets::get_script_asset_filename('wp-admin-script...', 'payment-method-...')
+#1 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCPayPromotion\Init.php(45): Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_script('wp-admin-script...', 'payment-method-...', true)
+#2 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Admin\Features\Features.php(138): Automattic\WooCommerce\Internal\Admin\WCPayPromotion\Init->__construct()
+#3 C:\wamp64\www\n905\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\Admin\Features\Features::load_features('')
+#4 C:\wamp64\www\n905\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\wamp64\www\n905\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\wamp64\www\n905\wp-settings.php(643): do_action('init')
+#7 C:\wamp64\www\n905\wp-config.php(97): require_once('C:\\wamp64\\www\\n...')
+#8 C:\wamp64\www\n905\wp-load.php(50): require_once('C:\\wamp64\\www\\n...')
+#9 C:\wamp64\www\n905\wp-admin\admin-ajax.php(22): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+  thrown in C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php on line 136
+
+2023-11-08T01:25:36+00:00 CRITICAL Uncaught Exception: Could not find asset registry for wp-admin-scripts in C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php:136
+Stack trace:
+#0 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php(427): Automattic\WooCommerce\Internal\Admin\WCAdminAssets::get_script_asset_filename('wp-admin-script...', 'payment-method-...')
+#1 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCPayPromotion\Init.php(45): Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_script('wp-admin-script...', 'payment-method-...', true)
+#2 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Admin\Features\Features.php(138): Automattic\WooCommerce\Internal\Admin\WCPayPromotion\Init->__construct()
+#3 C:\wamp64\www\n905\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\Admin\Features\Features::load_features('')
+#4 C:\wamp64\www\n905\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\wamp64\www\n905\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\wamp64\www\n905\wp-settings.php(643): do_action('init')
+#7 C:\wamp64\www\n905\wp-config.php(97): require_once('C:\\wamp64\\www\\n...')
+#8 C:\wamp64\www\n905\wp-load.php(50): require_once('C:\\wamp64\\www\\n...')
+#9 C:\wamp64\www\n905\wp-admin\admin-ajax.php(22): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+  thrown in C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php on line 136
+
+2023-11-08T01:26:36+00:00 CRITICAL Uncaught Exception: Could not find asset registry for wp-admin-scripts in C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php:136
+Stack trace:
+#0 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php(427): Automattic\WooCommerce\Internal\Admin\WCAdminAssets::get_script_asset_filename('wp-admin-script...', 'payment-method-...')
+#1 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCPayPromotion\Init.php(45): Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_script('wp-admin-script...', 'payment-method-...', true)
+#2 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Admin\Features\Features.php(138): Automattic\WooCommerce\Internal\Admin\WCPayPromotion\Init->__construct()
+#3 C:\wamp64\www\n905\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\Admin\Features\Features::load_features('')
+#4 C:\wamp64\www\n905\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\wamp64\www\n905\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\wamp64\www\n905\wp-settings.php(643): do_action('init')
+#7 C:\wamp64\www\n905\wp-config.php(97): require_once('C:\\wamp64\\www\\n...')
+#8 C:\wamp64\www\n905\wp-load.php(50): require_once('C:\\wamp64\\www\\n...')
+#9 C:\wamp64\www\n905\wp-admin\admin-ajax.php(22): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+  thrown in C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php on line 136
+
+2023-11-08T01:27:49+00:00 CRITICAL Uncaught Exception: Could not find asset registry for wp-admin-scripts in C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php:136
+Stack trace:
+#0 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php(427): Automattic\WooCommerce\Internal\Admin\WCAdminAssets::get_script_asset_filename('wp-admin-script...', 'payment-method-...')
+#1 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCPayPromotion\Init.php(45): Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_script('wp-admin-script...', 'payment-method-...', true)
+#2 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Admin\Features\Features.php(138): Automattic\WooCommerce\Internal\Admin\WCPayPromotion\Init->__construct()
+#3 C:\wamp64\www\n905\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\Admin\Features\Features::load_features('')
+#4 C:\wamp64\www\n905\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\wamp64\www\n905\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\wamp64\www\n905\wp-settings.php(643): do_action('init')
+#7 C:\wamp64\www\n905\wp-config.php(97): require_once('C:\\wamp64\\www\\n...')
+#8 C:\wamp64\www\n905\wp-load.php(50): require_once('C:\\wamp64\\www\\n...')
+#9 C:\wamp64\www\n905\wp-admin\admin-ajax.php(22): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+  thrown in C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php on line 136
+
+2023-11-08T01:29:50+00:00 CRITICAL Uncaught Exception: Could not find asset registry for wp-admin-scripts in C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php:136
+Stack trace:
+#0 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php(427): Automattic\WooCommerce\Internal\Admin\WCAdminAssets::get_script_asset_filename('wp-admin-script...', 'payment-method-...')
+#1 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCPayPromotion\Init.php(45): Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_script('wp-admin-script...', 'payment-method-...', true)
+#2 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Admin\Features\Features.php(138): Automattic\WooCommerce\Internal\Admin\WCPayPromotion\Init->__construct()
+#3 C:\wamp64\www\n905\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\Admin\Features\Features::load_features('')
+#4 C:\wamp64\www\n905\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\wamp64\www\n905\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\wamp64\www\n905\wp-settings.php(643): do_action('init')
+#7 C:\wamp64\www\n905\wp-config.php(97): require_once('C:\\wamp64\\www\\n...')
+#8 C:\wamp64\www\n905\wp-load.php(50): require_once('C:\\wamp64\\www\\n...')
+#9 C:\wamp64\www\n905\wp-admin\admin-ajax.php(22): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+  thrown in C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php on line 136
+
+2023-11-08T01:31:51+00:00 CRITICAL Uncaught Exception: Could not find asset registry for wp-admin-scripts in C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php:136
+Stack trace:
+#0 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php(427): Automattic\WooCommerce\Internal\Admin\WCAdminAssets::get_script_asset_filename('wp-admin-script...', 'payment-method-...')
+#1 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCPayPromotion\Init.php(45): Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_script('wp-admin-script...', 'payment-method-...', true)
+#2 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Admin\Features\Features.php(138): Automattic\WooCommerce\Internal\Admin\WCPayPromotion\Init->__construct()
+#3 C:\wamp64\www\n905\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\Admin\Features\Features::load_features('')
+#4 C:\wamp64\www\n905\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\wamp64\www\n905\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\wamp64\www\n905\wp-settings.php(643): do_action('init')
+#7 C:\wamp64\www\n905\wp-config.php(97): require_once('C:\\wamp64\\www\\n...')
+#8 C:\wamp64\www\n905\wp-load.php(50): require_once('C:\\wamp64\\www\\n...')
+#9 C:\wamp64\www\n905\wp-admin\admin-ajax.php(22): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+  thrown in C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php on line 136
+
+2023-11-08T01:33:52+00:00 CRITICAL Uncaught Exception: Could not find asset registry for wp-admin-scripts in C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php:136
+Stack trace:
+#0 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php(427): Automattic\WooCommerce\Internal\Admin\WCAdminAssets::get_script_asset_filename('wp-admin-script...', 'payment-method-...')
+#1 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCPayPromotion\Init.php(45): Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_script('wp-admin-script...', 'payment-method-...', true)
+#2 C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Admin\Features\Features.php(138): Automattic\WooCommerce\Internal\Admin\WCPayPromotion\Init->__construct()
+#3 C:\wamp64\www\n905\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\Admin\Features\Features::load_features('')
+#4 C:\wamp64\www\n905\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\wamp64\www\n905\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\wamp64\www\n905\wp-settings.php(643): do_action('init')
+#7 C:\wamp64\www\n905\wp-config.php(97): require_once('C:\\wamp64\\www\\n...')
+#8 C:\wamp64\www\n905\wp-load.php(50): require_once('C:\\wamp64\\www\\n...')
+#9 C:\wamp64\www\n905\wp-admin\admin-ajax.php(22): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+  thrown in C:\wamp64\www\n905\wp-content\plugins\woocommerce\src\Internal\Admin\WCAdminAssets.php on line 136
+
